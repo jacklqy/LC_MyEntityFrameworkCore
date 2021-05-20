@@ -9,3 +9,4 @@ Microsoft.EntityFrameworkCore/Microsoft.EntityFrameworkCore.Design/Microsoft.Ent
 ![image](https://user-images.githubusercontent.com/26539681/118960348-c6b5c900-b995-11eb-9dc1-82bf99b76511.png)
 ![image](https://user-images.githubusercontent.com/26539681/118960431-de8d4d00-b995-11eb-9484-2437a1da1603.png)
 
+希望为.net开源社区尽绵薄之力，探lu者###一直在探索前进的路上###（QQ:529987528）

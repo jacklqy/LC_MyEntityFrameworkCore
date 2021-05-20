@@ -1,0 +1,12 @@
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.deps.json
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.AssemblyInfoInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.AssemblyInfo.cs
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.csproj.CoreCompileInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.runtimeconfig.json
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.runtimeconfig.dev.json
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.genruntimeconfig.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.csprojAssemblyReference.cache

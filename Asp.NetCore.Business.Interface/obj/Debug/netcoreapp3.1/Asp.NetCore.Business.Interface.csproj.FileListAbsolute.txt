@@ -1,0 +1,12 @@
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.deps.json
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.csprojAssemblyReference.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.AssemblyInfoInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.AssemblyInfo.cs
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.csproj.CoreCompileInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Interface\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.csproj.CopyComplete

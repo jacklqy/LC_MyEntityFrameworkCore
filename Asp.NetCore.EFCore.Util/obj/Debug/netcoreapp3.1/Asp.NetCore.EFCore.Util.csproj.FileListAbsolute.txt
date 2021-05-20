@@ -1,0 +1,8 @@
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.deps.json
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.AssemblyInfoInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.AssemblyInfo.cs
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.csproj.CoreCompileInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Util\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Util.pdb

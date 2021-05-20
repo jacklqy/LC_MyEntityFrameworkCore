@@ -1,0 +1,14 @@
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.deps.json
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.csprojAssemblyReference.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.AssemblyInfoInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.AssemblyInfo.cs
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.csproj.CoreCompileInputs.cache
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.dll
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.Business.Interface.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.pdb
+D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.Business.Service\obj\Debug\netcoreapp3.1\Asp.NetCore.Business.Service.csproj.CopyComplete

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using Asp.NetCore.EFCore.Models.Extend;
 using Asp.NetCore.EFCore.Models.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -190,5 +192,15 @@ namespace Asp.NetCore.EFCore.Models
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+        ////Context SaveChange 是所有操作一次提交，ChangeTracker.Entries()包含了所有更改的内容； 
+        //public override int SaveChanges()
+        //{
+        //    //穿插一些自己动作
+        //    {
+        //        ChangeTracker.Entries().Where(s => s is AbstractBaseModel && s.State == EntityState.Modified).ToList().ForEach(e => ((AbstractBaseModel)e.Entity).LastModifyTime = DateTime.Now);
+        //    }
+        //    return base.SaveChanges();
+        //}
     }
 }

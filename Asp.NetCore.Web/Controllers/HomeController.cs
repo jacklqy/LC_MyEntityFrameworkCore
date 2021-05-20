@@ -19,7 +19,7 @@ namespace Asp.NetCore.Web.Controllers
 
         public HomeController(ILogger<HomeController> logger, ITbLogService tbLogService)
         {
-            _logger = logger;
+            this._logger = logger;
             this._tbLogService = tbLogService;
         }
 

@@ -3,9 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Asp.NetCore.EFCore.Models.Models
+namespace Asp.NetCore.EFCore.Models.Extend
 {
-    public static class LcDbContextExtend
+    /// <summary>
+    /// DbContext扩展
+    /// </summary>
+    public static class DbContextExtend
     { 
         public static DbContext ToWriteOrRead(this DbContext dbContext, string conn)
         {

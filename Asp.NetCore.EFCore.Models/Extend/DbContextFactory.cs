@@ -21,7 +21,7 @@ namespace Asp.NetCore.EFCore.Models.Extend
         /// <param name="context"></param>
         public DbContextFactory(DbContext context, IOptionsMonitor<DBConnectionOption> options)
         {
-            _readAndWrite = options.CurrentValue;
+            this._readAndWrite = options.CurrentValue;
             this._Context = context;
         }
         public DbContext ConnWriteOrRead(WriteAndReadEnum writeAndRead)
@@ -48,16 +48,15 @@ namespace Asp.NetCore.EFCore.Models.Extend
         private void ToWrite()
         {
             string conn= _readAndWrite.WriteConnection;
-            //_Context.Database.GetDbConnection().;
+            //_Context.Database.GetDbConnection().ConnectionString=conn;
             _Context.ToWriteOrRead(conn); 
         }
 
 
         private static int _iSeed = 0;
-
         /// <summary>
-        /// 更换成主库连接
-        /// 策略---数据库查询的负载均衡
+        /// 更换成从库连接
+        /// 策略：数据库查询的负载均衡
         /// </summary>
         /// <returns></returns>
         private void ToRead()

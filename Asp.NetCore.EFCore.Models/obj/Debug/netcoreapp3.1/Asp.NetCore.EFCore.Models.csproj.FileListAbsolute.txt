@@ -9,4 +9,3 @@ D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreap
 D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.runtimeconfig.json
 D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\bin\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.runtimeconfig.dev.json
 D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.genruntimeconfig.cache
-D:\github\LC_MyEntityFrameworkCore\Asp.NetCore.EFCore.Models\obj\Debug\netcoreapp3.1\Asp.NetCore.EFCore.Models.csprojAssemblyReference.cache

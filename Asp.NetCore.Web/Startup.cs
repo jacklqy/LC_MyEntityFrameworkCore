@@ -1,7 +1,7 @@
 using Asp.NetCore.Business.Interface;
 using Asp.NetCore.Business.Service;
+using Asp.NetCore.EFCore.Models;
 using Asp.NetCore.EFCore.Models.Extend;
-using Asp.NetCore.EFCore.Models.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -28,15 +28,10 @@ namespace Asp.NetCore.Web
         public void ConfigureServices(IServiceCollection services)
         {
             //AspNetCore 注册服务
-
-            ///可以在这里指定生命周期； 在这里控制；
             services.AddTransient<ITbLogService, TbLogService>();
             services.AddTransient<DbContext, LcDbContext>();
-            //services.AddTransient<DbContext, EFCoreContext01>();
-            ///可以获取DbContext 实例的集合；
-
             services.AddTransient<IDbContextFactory, DbContextFactory>();
-            services.Configure<DBConnectionOption>(Configuration.GetSection("ConnectionStrings"));//注入多个数据库链接
+            services.Configure<DBConnectionOption>(Configuration.GetSection("ConnectionStrings"));//从配置文件读取注入多个数据库链接
             services.AddControllersWithViews();
         }
 

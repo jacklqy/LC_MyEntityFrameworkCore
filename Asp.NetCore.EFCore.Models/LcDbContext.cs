@@ -1,11 +1,12 @@
 ﻿using System;
+using Asp.NetCore.EFCore.Models.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Logging;
 
 #nullable disable
 
-namespace Asp.NetCore.EFCore.Models.Models
+namespace Asp.NetCore.EFCore.Models
 {
     public partial class LcDbContext : DbContext
     {
@@ -34,10 +35,10 @@ namespace Asp.NetCore.EFCore.Models.Models
         public virtual DbSet<TbMq> TbMqs { get; set; }
         public virtual DbSet<TbTxt> TbTxts { get; set; }
 
-        private string Conn = null;
+        private string Connstring = null;
         public DbContext ToWriteOrRead(string conn)
         {
-            Conn = conn;
+            Connstring = conn;
             return this;
         }
 
@@ -45,13 +46,13 @@ namespace Asp.NetCore.EFCore.Models.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(Conn);
+                optionsBuilder.UseSqlServer(Connstring);
             }
 
             //if (!optionsBuilder.IsConfigured)
             //{
             //    optionsBuilder.UseLoggerFactory(MyLoggerFactory)
-            //         .UseLazyLoadingProxies()
+            //         .UseLazyLoadingProxies() //控制台日志
             //        .UseSqlServer(Conn);
             //}
             //optionsBuilder.UseLoggerFactory(MyLoggerFactory);

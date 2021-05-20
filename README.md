@@ -1,0 +1,2 @@
+# LC_MyEntityFrameworkCore
+支持主从数据库读写分离

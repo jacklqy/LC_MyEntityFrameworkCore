@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Asp.NetCore.Business.Interface
 {
-    public interface IBaseService:IDisposable
+    public interface IBaseService : IDisposable
     {
         #region Query
         /// <summary>

@@ -40,16 +40,16 @@ namespace Asp.NetCore.EFCore.Models.Extend
             }
             return _Context;
         }
-         
+
         /// <summary>
         /// 更换成主库连接
         /// </summary>
         /// <returns></returns>
         private void ToWrite()
         {
-            string conn= _readAndWrite.WriteConnection;
+            string conn = _readAndWrite.WriteConnection;
             //_Context.Database.GetDbConnection().ConnectionString=conn;
-            _Context.ToWriteOrRead(conn); 
+            _Context.ToWriteOrRead(conn);
         }
 
 
@@ -63,17 +63,17 @@ namespace Asp.NetCore.EFCore.Models.Extend
         {
             string conn = string.Empty;
             {
-               // //随机
-               //int Count=  _readAndWrite.ReadConnectionList.Count;
-               //int index=  new Random().Next(0, Count);
-               //conn = _readAndWrite.ReadConnectionList[index];
+                //随机策略
+                //int Count=  _readAndWrite.ReadConnectionList.Count;
+                //int index=  new Random().Next(0, Count);
+                //conn = _readAndWrite.ReadConnectionList[index];
             }
             {
-                //来一个轮询（并发多线程的情况下_iSeed考虑加锁）
-                conn = this._readAndWrite.ReadConnectionList[_iSeed++ % this._readAndWrite.ReadConnectionList.Count];//轮询;  
+                //来轮询策略（并发多线程的情况下_iSeed考虑加锁）
+                conn = this._readAndWrite.ReadConnectionList[_iSeed++ % this._readAndWrite.ReadConnectionList.Count];
             }
-            { 
-                ///是不是可以直接配置到配置文件里面
+            {
+                ///是不是可以直接配置到配置文件里面，根据配置文件来动态切换策略
             }
             _Context.ToWriteOrRead(conn);
         }

@@ -67,7 +67,7 @@ namespace Asp.NetCore.EFCore.Models.Extend
                //int Count=  _readAndWrite.ReadConnectionList.Count;
                //int index=  new Random().Next(0, Count);
                //conn = _readAndWrite.ReadConnectionList[index];
-            } 
+            }
             {
                 //来一个轮询（并发多线程的情况下_iSeed考虑加锁）
                 conn = this._readAndWrite.ReadConnectionList[_iSeed++ % this._readAndWrite.ReadConnectionList.Count];//轮询;  

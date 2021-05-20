@@ -6,8 +6,6 @@ namespace Asp.NetCore.Business.Interface
 {
     public interface ITbLogService: IBaseService
     {
-
-
         public void DeleteCompanyAndUser(long Id);
 
     }
